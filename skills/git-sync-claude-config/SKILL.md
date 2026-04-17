@@ -1,5 +1,5 @@
 ---
-name: sync-claude-config
+name: git-sync-claude-config
 description: Sync personal Claude Code skills/commands/CLAUDE.md across machines via the claude-config git repo
 ---
 
