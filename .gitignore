@@ -1,2 +1,9 @@
+
 # AI session logs and local vector memory
 .ai/context-logger/
+
+# Skillshare install artifacts (regenerable copies, not source)
+.skillshare/
+.agents/
+.claude/
+.codex/
