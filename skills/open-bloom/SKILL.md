@@ -10,7 +10,7 @@ When the user says **open**, open the working directory in **Bloom** (`/Applicat
 ## Run
 
 ```bash
-~/projects/claude-config/scripts/open-bloom.sh [PATH]
+~/projects/agent-toolkit/scripts/open-bloom.sh [PATH]
 ```
 
 | Input | Result |

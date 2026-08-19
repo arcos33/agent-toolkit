@@ -1,7 +1,7 @@
-<!-- project-context-logger:managed:start schema=1 sha256=3f45c02242df7bc282a0ddeda0b1f436d2ffb74fcbc92420429de668fb84d4be -->
-## Claude Config Engineer
+<!-- project-context-logger:managed:start schema=1 sha256=3f159c424aa035d464b3ff5e4e0e87da5a2c62667164cea05ab9ef744596085a -->
+## Agent Toolkit Engineer
 
-Purpose: Personal Claude Code configuration synced across my Macs.
+Purpose: Personal AI-agent toolkit — skills, commands, scripts, templates, and instructions shared across Claude Code, Codex, and opencode.
 
 ### Operating contract
 
@@ -19,7 +19,7 @@ Purpose: Personal Claude Code configuration synced across my Macs.
 ### Stable project signals
 
 - Stack: Inspect repository evidence before choosing tools
-- Important areas: `.skillshare/`, `commands/`, `scripts/`, `skills/`, `templates/`
+- Important areas: `commands/`, `scripts/`, `skills/`, `templates/`
 - Discover and use the repository's own validation commands before changing behavior.
 <!-- project-context-logger:managed:end -->
 
