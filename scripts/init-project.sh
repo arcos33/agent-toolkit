@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bootstrap project quartet + CLAUDE.md from templates.
+# Bootstrap project quartet + AGENTS.md from templates.
 # Usage: init-project.sh [PATH] [--name NAME] [--desc DESC] [--type cad|app|mcp|ops|generic]
 #
 # No PATH     → current directory
@@ -108,8 +108,8 @@ write_if_missing "README.md" "$TEMPLATES/README.md"
 write_if_missing "CHANGELOG.md" "$TEMPLATES/CHANGELOG.md"
 write_if_missing "DECISION-LOG.md" "$TEMPLATES/DECISION-LOG.md"
 write_if_missing "SPECS.md" "$SPECS_FILE"
-write_if_missing "CLAUDE.md" "$TEMPLATES/CLAUDE.md"
+write_if_missing "AGENTS.md" "$TEMPLATES/AGENTS.md"
 
 echo ""
 echo "Project ready: $TARGET"
-echo "  README.md CHANGELOG.md DECISION-LOG.md SPECS.md CLAUDE.md"
+echo "  README.md CHANGELOG.md DECISION-LOG.md SPECS.md AGENTS.md"

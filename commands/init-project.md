@@ -4,8 +4,8 @@ Run the `init-project` skill from the user's **current working directory**.
 
 | User says | Run |
 |-----------|-----|
-| **init project** (no name) | `~/projects/claude-config/scripts/init-project.sh` |
-| **init project** `foo-tray` | `~/projects/claude-config/scripts/init-project.sh foo-tray` |
+| **init project** (no name) | `~/projects/agent-toolkit/scripts/init-project.sh` |
+| **init project** `foo-tray` | `~/projects/agent-toolkit/scripts/init-project.sh foo-tray` |
 | With type/desc | add `--type cad` etc. |
 
 - No name → quartet in **cwd**

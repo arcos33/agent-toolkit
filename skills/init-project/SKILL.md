@@ -1,12 +1,12 @@
 ---
 name: init-project
-description: Bootstrap a new project with quartet docs (README, CHANGELOG, DECISION-LOG, SPECS) and CLAUDE.md
+description: Bootstrap a new project with quartet docs (README, CHANGELOG, DECISION-LOG, SPECS) and AGENTS.md
 argument-hint: "[NAME] [--desc DESC] [--type cad|app|mcp|ops|generic]"
 ---
 
 # Init Project
 
-Creates the **project quartet** plus a thin **`CLAUDE.md`** in a new or existing directory.
+Creates the **project quartet** plus a thin **`AGENTS.md`** in a new or existing directory.
 
 ## When to use
 
@@ -16,7 +16,7 @@ Creates the **project quartet** plus a thin **`CLAUDE.md`** in a new or existing
 ## Run from cwd
 
 ```bash
-~/projects/claude-config/scripts/init-project.sh [NAME] [options]
+~/projects/agent-toolkit/scripts/init-project.sh [NAME] [options]
 ```
 
 | Input | Result |
@@ -37,20 +37,20 @@ Creates the **project quartet** plus a thin **`CLAUDE.md`** in a new or existing
 
 ```bash
 cd ~/projects/3d-prints/sushi-organizer
-~/projects/claude-config/scripts/init-project.sh                    # quartet here
+~/projects/agent-toolkit/scripts/init-project.sh                    # quartet here
 
 cd ~/projects/3d-prints
-~/projects/claude-config/scripts/init-project.sh foo-tray --type cad --desc "Prep tray"
+~/projects/agent-toolkit/scripts/init-project.sh foo-tray --type cad --desc "Prep tray"
 
-~/projects/claude-config/scripts/init-project.sh ~/projects/hikari-tools/mcp/foo --type mcp
+~/projects/agent-toolkit/scripts/init-project.sh ~/projects/hikari-tools/mcp/foo --type mcp
 ```
 
 ## After bootstrap
 
 1. Fill in `README.md` overview (below § Pick up here) if needed
-2. Add ops notes to `CLAUDE.md` § Ops notes (auth, deploy, MCP launch) as the project grows
+2. Add ops notes to `AGENTS.md` § Ops notes (auth, deploy, MCP launch) as the project grows
 3. Optional: `/gsd-new-project` for phased planning
 
 ## Templates
 
-`~/projects/claude-config/templates/project-quartet/`
+`~/projects/agent-toolkit/templates/project-quartet/`

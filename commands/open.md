@@ -1,7 +1,7 @@
 Run the `open-bloom` skill: open the current directory in Bloom.
 
 ```bash
-~/projects/claude-config/scripts/open-bloom.sh
+~/projects/agent-toolkit/scripts/open-bloom.sh
 ```
 
 If the user named a subpath, pass it as the first argument.

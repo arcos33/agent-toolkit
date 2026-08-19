@@ -19,7 +19,7 @@ Every project uses the same four files. Stubs are fine until you have content.
 - **"update the specs"** (CAD) → `SPECS.md` first, then code
 - **After meaningful work** → append `CHANGELOG.md` (what), `DECISION-LOG.md` (why if non-obvious), refresh § Pick up here
 
-Global rules: `~/projects/CLAUDE.md` § Project quartet · `~/.cursor/rules/project-quartet.mdc`
+Global rules: `~/projects/agent-toolkit/AGENTS.md` § Project quartet
 
 ## Ops notes
 
