@@ -9,7 +9,6 @@ Personal AI-agent toolkit — skills, commands, scripts, templates, and instruct
 - `scripts/init-project.sh` — bootstrap quartet + `AGENTS.md` on new projects
 - `templates/project-quartet/` — README, CHANGELOG, DECISION-LOG, SPECS, AGENTS stubs
 - `HOW-TO.md` — quartet usage guide
-- `docs/copy-on-select-macos.md` — install mouse-selection auto-copy on a Mac
 
 Not tracked here: GSD-installed skills, `project-context-logger` (its own repo), and install artifacts (`.skillshare/`, `.claude/`, `.codex/`, `.agents/`).
 
