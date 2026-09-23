@@ -2,7 +2,7 @@
 
 **Source of truth for MCP tools and contracts.** Update when tools or schemas change. Rationale → `DECISION-LOG.md`.
 
-**URLs:** All external links live in **§ References** below — nowhere else in the quartet.
+**URLs:** All external links live in **§ References** below — nowhere else in the project files.
 
 ## References
 

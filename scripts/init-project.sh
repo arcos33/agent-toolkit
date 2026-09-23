@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bootstrap project quartet + AGENTS.md from templates.
+# Bootstrap project files + AGENTS.md from templates.
 # Usage: init-project.sh [PATH] [--name NAME] [--desc DESC] [--type cad|app|mcp|ops|generic]
 #
 # No PATH     → current directory
@@ -10,7 +10,7 @@
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-TEMPLATES="$REPO_DIR/templates/project-quartet"
+TEMPLATES="$REPO_DIR/templates/project-files"
 
 NAME=""
 DESC=""
@@ -105,6 +105,9 @@ write_if_missing() {
 }
 
 write_if_missing "README.md" "$TEMPLATES/README.md"
+write_if_missing "PROJECT-STATE.md" "$TEMPLATES/PROJECT-STATE.md"
+write_if_missing "ACTION-ITEMS.md" "$TEMPLATES/ACTION-ITEMS.md"
+write_if_missing "SESSION-LOG.md" "$TEMPLATES/SESSION-LOG.md"
 write_if_missing "CHANGELOG.md" "$TEMPLATES/CHANGELOG.md"
 write_if_missing "DECISION-LOG.md" "$TEMPLATES/DECISION-LOG.md"
 write_if_missing "SPECS.md" "$SPECS_FILE"
@@ -112,4 +115,4 @@ write_if_missing "AGENTS.md" "$TEMPLATES/AGENTS.md"
 
 echo ""
 echo "Project ready: $TARGET"
-echo "  README.md CHANGELOG.md DECISION-LOG.md SPECS.md AGENTS.md"
+echo "  README.md PROJECT-STATE.md ACTION-ITEMS.md SESSION-LOG.md CHANGELOG.md DECISION-LOG.md SPECS.md AGENTS.md"

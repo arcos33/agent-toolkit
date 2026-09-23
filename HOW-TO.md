@@ -1,39 +1,36 @@
-# Project Quartet — How To
+# Project Files — How To
 
-Every new project gets these 4 files (stubs OK if empty).
+Every new project gets seven project files (stubs OK until content is verified).
 
 ## Files to create
 
 | File | What it's for |
 |------|---------------|
-| `README.md` | What the project is + `## Pick up here` section (resume checkpoint) |
+| `README.md` | Stable project overview, setup, and usage |
+| `PROJECT-STATE.md` | Current status, blockers, and one next action |
+| `ACTION-ITEMS.md` | Open and resolved tasks |
+| `SESSION-LOG.md` | Dated history of working sessions |
 | `CHANGELOG.md` | *What* changed — list of changes, newest first |
-| `DECISION-LOG.md` | *Why* — reasoning, tradeoffs, decisions |
-| `SPECS.md` | Numbers, APIs, dimensions, schemas |
+| `DECISION-LOG.md` | *Why* — decisions, findings, and reasoning |
+| `SPECS.md` | Confirmed requirements, measurements, APIs, and constraints |
 
 ## How to use
 
-- **"pick up here"** → read & update `README.md` § Pick up here
+- **"pick up here"** → read `PROJECT-STATE.md`, open `ACTION-ITEMS.md`, and recent `SESSION-LOG.md`; use a legacy README handoff if `PROJECT-STATE.md` says its first snapshot is pending
 - **"update the specs"** → edit `SPECS.md` first, then code
-- **After meaningful work** → append `CHANGELOG.md` (what) and `DECISION-LOG.md` (why, if non-obvious), refresh § Pick up here
+- **After meaningful work** → update `PROJECT-STATE.md` and `ACTION-ITEMS.md`; append `CHANGELOG.md` for changes and `DECISION-LOG.md` for durable reasoning
+- **At session close** → append one dated `SESSION-LOG.md` entry even if no project change resulted
 
-## README.md structure
+## PROJECT-STATE.md structure
 
 ```markdown
-# {{NAME}}
+# Project State
 
-{{DESC}}
+## Current status
 
-## Pick up here
+Brief verified status and blockers.
 
-**Last updated:** YYYY-MM-DD
+## Next action
 
-### Done
-- (none)
-
-### Next
-- (none)
-
-### Blocked
-- (none)
+NEXT ACTION: One concrete step.
 ```

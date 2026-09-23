@@ -3,12 +3,12 @@
 Personal AI-agent toolkit — skills, commands, scripts, templates, and instructions shared across Claude Code, Codex, and opencode.
 
 ## Contents
-- `AGENTS.md` — global instructions (developer profile + project quartet rules), symlinked to each agent's global instruction file
+- `AGENTS.md` — global instructions (developer profile + project files rules), symlinked to each agent's global instruction file
 - `skills/` — personal skills (symlinked into `~/.claude/skills/` and `~/.codex/skills/`)
 - `commands/` — slash commands (symlinked into `~/.claude/commands/`)
-- `scripts/init-project.sh` — bootstrap quartet + `AGENTS.md` on new projects
-- `templates/project-quartet/` — README, CHANGELOG, DECISION-LOG, SPECS, AGENTS stubs
-- `HOW-TO.md` — quartet usage guide
+- `scripts/init-project.sh` — bootstrap project files + `AGENTS.md` on new projects
+- `templates/project-files/` — seven project file templates plus `AGENTS.md`
+- `HOW-TO.md` — project files usage guide
 
 Not tracked here: GSD-installed skills, `project-context-logger` (its own repo), and install artifacts (`.skillshare/`, `.claude/`, `.codex/`, `.agents/`).
 

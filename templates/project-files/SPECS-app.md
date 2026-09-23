@@ -2,7 +2,7 @@
 
 **Source of truth for APIs, config, and behavior.** Update this file when contracts change. Rationale → `DECISION-LOG.md`.
 
-**URLs:** All external links live in **§ References** below — nowhere else in the quartet.
+**URLs:** All external links live in **§ References** below — nowhere else in the project files.
 
 ## References
 

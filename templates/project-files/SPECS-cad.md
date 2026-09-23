@@ -2,7 +2,7 @@
 
 **Source of truth for measurements and design rules.** Update this file first, then code/CAD. Rationale → `DECISION-LOG.md`.
 
-**URLs:** All external links live in **§ References** below — nowhere else in the quartet.
+**URLs:** All external links live in **§ References** below — nowhere else in the project files.
 
 ## References
 

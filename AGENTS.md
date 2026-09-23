@@ -56,24 +56,28 @@ Personal AI-agent toolkit: skills, commands, scripts, templates, and instruction
 
 ## Tools & Preferences
 - **Markdown preview**: `grip` is installed via pip. Use `python3 -m grip <file> 0.0.0.0:6419` then `open http://localhost:6419` to render markdown in the browser. Sam will ask for this as "open in browser as markdown" or similar.
+- **Codex MCP memory**: Heavy project-specific stdio servers are disabled globally in `~/.codex/config.toml` to prevent every open task from launching duplicate processes. Enable only the server needed for the active project, then disable it again when finished.
 
-## Project quartet
+## Project files
 
-Every real project gets these four files, even when empty. Stubs are fine until you have content.
+Every real project gets these seven files. Stubs are fine until there is verified content.
 
 | File | Purpose |
 |------|---------|
-| `README.md` | What it is, how to run it. **§ Pick up here** = resume checkpoint |
-| `CHANGELOG.md` | *What* changed — not why |
-| `DECISION-LOG.md` | *Why* — reasoning, findings, decisions |
-| `SPECS.md` | Measurable truth (dimensions, APIs, schemas) |
+| `README.md` | Stable overview, setup, and usage |
+| `PROJECT-STATE.md` | Concise current status, blockers, and one next action |
+| `ACTION-ITEMS.md` | Open and resolved tasks |
+| `SESSION-LOG.md` | Dated history of working sessions |
+| `CHANGELOG.md` | Meaningful changes to the project |
+| `DECISION-LOG.md` | Decisions, findings, root causes, and reasoning |
+| `SPECS.md` | Confirmed requirements, measurements, APIs, and constraints |
 
-Not projects (no quartet): personal config/dotfile repos.
+Personal config and dotfile repos do not need project files.
 
 ## Session triggers
 
-- **"pick up here"** → read and update `README.md` § Pick up here
+- **"pick up here"** → read `PROJECT-STATE.md`, open `ACTION-ITEMS.md`, and recent `SESSION-LOG.md`; use a legacy `README.md` § Pick up here when `PROJECT-STATE.md` says its first snapshot is pending
 - **"update the specs"** (CAD) → `SPECS.md` first, then code
-- **After meaningful work** → append `CHANGELOG.md` (what), `DECISION-LOG.md` (why if non-obvious), refresh § Pick up here
+- **After meaningful work** → update `PROJECT-STATE.md` and `ACTION-ITEMS.md`; append `CHANGELOG.md` for changes and `DECISION-LOG.md` for durable reasoning; close each working session with one `SESSION-LOG.md` entry
 
 Bootstrap a new project with `init-project.sh` (see `skills/init-project/`).
