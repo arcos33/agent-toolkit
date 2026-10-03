@@ -1,0 +1,4 @@
+interface:
+  display_name: "PiKVM Control"
+  short_description: "Fast Mac mini viewing and input through PiKVM"
+  default_prompt: "Use $pikvm-control to inspect the Mac mini and perform the requested screen action."
